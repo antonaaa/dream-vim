@@ -59,7 +59,7 @@ setpy.py : 安装文件
 
 
 
-普通模式：<F5>可以根据文件名后缀的不同，执行cpp、python代码，具体见config/mapping.vim
+普通模式：可以根据文件名后缀的不同，按<F5>执行cpp、python代码，具体见config/mapping.vim
 
 
 
