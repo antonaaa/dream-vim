@@ -6,13 +6,13 @@
 ## 截图
 - - -
 molokai主题
-![screenshot1](screenshot/screenshot1.png)
+![screenshot1](screenshot/screenshot-molokai.png)
 
 zenburn主题
-![screenshot2](screenshot/screenshot2.png)
+![screenshot2](screenshot/screenshot-zenburn.png)
 
 dream主题
-![dream](screenshot/screenshot3.png)
+![dream](screenshot/screenshot-dream.png)
 ## 安装步骤
 - - -
 #### 1.下载到本地
