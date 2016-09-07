@@ -12,17 +12,15 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " plugins list
-Plugin 'scrooloose/nerdtree'						"目录树插件
-Plugin 'tpope/vim-commentary'						"注释插件
-Plugin 'vim-airline/vim-airline'					"状态栏插件
-Plugin 'Shougo/neocomplcache.vim'					"自动补全插件
-Plugin 'easymotion/vim-easymotion'					"快速移动插件
-Plugin 'vim-scripts/taglist.vim'
-
-
-
-
-call vundle#end()            " required
+Plugin 'scrooloose/nerdtree'							"目录树插件
+Plugin 'tpope/vim-commentary'							"注释插件
+Plugin 'vim-airline/vim-airline'						"状态栏插件
+Plugin 'Shougo/neocomplcache.vim'						"自动补全插件
+Plugin 'easymotion/vim-easymotion'						"快速移动插件
+Plugin 'hdima/python-syntax'							"python语法高亮插件
+Plugin 'kevinw/pyflakes-vim'							"python实时语法检查
+Plugin 'vim-scripts/taglist.vim'						"显示已定义的函数和类
+call vundle#end()            " required	   
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -43,7 +41,9 @@ source ~/.vim/config/vim-commentary.vim					"批量注释/反注释插件
 source ~/.vim/config/vim-airline.vim					"状态栏美化
 source ~/.vim/config/neocomplcache.vim					"自动补全
 source ~/.vim/config/vim-easymotion.vim					"快速移动
-
+source ~/.vim/config/python-syntax.vim					"python语法高亮
+source ~/.vim/config/pyflakes.vim						"python实时语法检查
+source ~/.vim/config/taglist.vim						"显示已定义的函数和类
 
 
 

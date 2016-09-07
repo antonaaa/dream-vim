@@ -15,3 +15,7 @@ autocmd BufNewFile *.cpp 		0r ~/.vim/templates/cpp.template
 "自动修改python脚本文件的权限为可执行
 "autocmd BufWritePost *.sh			silent !chmod +x <afile>
 autocmd BufWritePost * if getline(1) =~ "^#!" | if getline(1) =~ "/bin/" | silent !chmod +x <afile>
+
+
+"设置打开vim时，将光标显示在上次的位置
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif

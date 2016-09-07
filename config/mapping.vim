@@ -1,7 +1,8 @@
 "在插入模式下，将jj键映射为<esc>键
 imap jj <esc><right>
 imap JJ <esc><right>
-
+imap jJ <esc><right>
+imap Jj <esc><right>
 
 
 

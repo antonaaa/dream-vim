@@ -3,8 +3,10 @@
 
 set nocompatible 							"关闭vi兼容模式
 syntax on									"开启语法高亮
-colorscheme molokai							"设置vim主题
+" colorscheme molokai							"设置vim主题
 " colorscheme zenburn
+colorscheme dream
+" colorscheme dream-light
 set encoding=utf-8							"设置vim保存时使用的编码
 set backspace=indent,eol,start				"使得退格键能够删除字符 
 set mouse=a
@@ -18,13 +20,13 @@ set smartindent								"开启智能缩进，比如遇到if，for换行时会帮
 
 set number									"设置行号
 set cursorline								"突显当前行
+" set cursorcolumn							"突显当前列
 set scrolloff=10							"光标上下移动时，光标的上方或下方至少会保留显示的行数
 
 set incsearch								"输入搜索内容时就显示搜索结果
 set hlsearch								"高亮所有被搜索到的文本, 搜索之后使用nohl取消高亮
-
 "set nohlsearch
-
+		
 "set showmatch								" 插入括号时，短暂地跳转到匹配的对应括号
 "set matchtime=2							"短暂跳转到匹配括号的时间
 set showcmd									"在状态栏显示正在输入的命令

@@ -3,21 +3,16 @@
 
 
 
-
-
-
-
-
-
 ## 截图
 - - -
 molokai主题
-![screenshot1](screenshot1.png)
+![screenshot1](screenshot/screenshot1.png)
 
 zenburn主题
-![screenshot2](screenshot2.png)
+![screenshot2](screenshot/screenshot2.png)
 
-
+dream主题
+![dream](screenshot/screenshot3.png)
 ## 安装步骤
 - - -
 #### 1.下载到本地
@@ -47,6 +42,25 @@ vimrc : 为基础的配置
 setpy.py : 安装文件
 
 ## 使用
+
+普通模式：<F3>可以打开和关闭目录树插件
+
+普通模式：<F4>可以打开和关闭taglist插件
+
+普通模式：退格键可以快速注释/反注释一行
+
+可视模式：可以选中多行，然后使用退格键批量注释/反注释
+
+普通模式：ff可以快速往后查找一个字符，然后根据提示进行跳转
+
+普通模式：FF可以快速往前查找一个字符，然后根据提示进行跳转
+
+普通模式：/可以搜索多个字符，然后根据提示进行跳转
+
+
+
+普通模式：<F5>可以根据文件名后缀的不同，执行cpp、python代码，具体见config/mapping.vim
+
 
 
 
