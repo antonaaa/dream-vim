@@ -22,6 +22,14 @@ git clone https://github.com/gzmviavia/dream-vim.git ~/.vim
 
 #### 2.安装依赖项
 
+mac os系统
+```shell
+sudo brew install ctags
+```
+linux 系统
+```shell
+sudo apt-get install ctags
+```
 #### 3.安装
 ```shell
 cd ~/.vim
