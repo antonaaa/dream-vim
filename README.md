@@ -24,20 +24,20 @@ git clone https://github.com/gzmviavia/dream-vim.git ~/.vim
 
 mac os系统
 ```shell
-"安装ctags
+#安装ctags
 sudo brew install ctags
 
-"安装powerline字体
+#安装powerline字体
 git clone https://github.com/powerline/powerline powerline
 cd powerline
 python setup.py
 ```
 linux 系统
 ```shell
-"安装ctags
+#安装ctags
 sudo apt-get install ctags
 
-"安装powerline字体
+#安装powerline字体
 git clone https://github.com/powerline/powerline powerline
 cd powerline
 python setup.py
