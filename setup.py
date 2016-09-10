@@ -23,5 +23,6 @@ def carry(cmd):
 
 
 carry('sudo ln ./vimrc ~/.vimrc')
-
+carry('sudo brew install ctags')
+carry('./install.sh')
 

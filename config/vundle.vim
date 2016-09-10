@@ -19,11 +19,15 @@ Plugin 'Shougo/neocomplcache.vim'						"自动补全插件
 Plugin 'easymotion/vim-easymotion'						"快速移动插件
 Plugin 'hdima/python-syntax'							"python语法高亮插件
 Plugin 'kevinw/pyflakes-vim'							"python实时语法检查
-Plugin 'vim-scripts/taglist.vim'						"显示已定义的函数和类
+Plugin 'davidhalter/jedi-vim'							"python自动补全插件，支持第三方模块自动补全
+Plugin 'majutsushi/tagbar'								"显示已定义的变量、函数和类
+Plugin 'terryma/vim-multiple-cursors'					"多光标操作
+Plugin 'kien/ctrlp.vim'									"快速搜索文件，然后进行跳转
+Plugin 'junegunn/vim-easy-align'
 call vundle#end()            " required	   
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
-"filetype plugin on
+" filetype plugin on
 "
 " Brief help
 " :PluginList       - lists configured plugins
@@ -43,10 +47,11 @@ source ~/.vim/config/neocomplcache.vim					"自动补全
 source ~/.vim/config/vim-easymotion.vim					"快速移动
 source ~/.vim/config/python-syntax.vim					"python语法高亮
 source ~/.vim/config/pyflakes.vim						"python实时语法检查
-source ~/.vim/config/taglist.vim						"显示已定义的函数和类
-
-
-
+source ~/.vim/config/jedi.vim							"Python自动补全插件，支持第三方模块自动补全
+source ~/.vim/config/tagbar.vim							"显示已定义的变量、函数和类
+source ~/.vim/config/vim-multiple-cursors.vim			"多光标操作
+source ~/.vim/config/ctrlp.vim							"快速搜索文件，然后进行跳转
+source ~/.vim/config/vim-easy-align.vim
 
 
 

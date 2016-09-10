@@ -4,8 +4,7 @@ imap JJ <esc><right>
 imap jJ <esc><right>
 imap Jj <esc><right>
 
-
-
+map <leader>w <c-w><c-w>
 "=========================================
 "% 表示相对路径文件名，比如在~目录下执行了命令vim ./vim/config/mapping.vim，那么%='./vim/config/mapping.vim'
 "%:e 表示取文件名后缀 vim
@@ -32,7 +31,7 @@ endfunction
 
 "如果文件是c/c++文件，那么映射<F5>运行快捷键
 if expand("%:e") == "cpp" || expand("%:e") == "c"
-	map <F5> :call RunCpp()<CR>
+	map <F5> :call RunCpp()<CR><CR>
 endif
 
 
@@ -71,6 +70,16 @@ if expand("%:e") == "html" && executable("open")
 	map <F5> :call RunHtml()<CR>
 endif
 
+
+
+function! Open()
+	exec "w"
+	exec "! open -a /Applications/'Sublime Text.app' %"
+endfunction
+
+if executable("open")
+	map <leader>o :call Open()<CR>
+endif
 
 " 在visual模式下， 使用"+y把内容复制到外部剪贴板
 if executable("pbcopy")
