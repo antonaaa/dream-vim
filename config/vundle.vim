@@ -24,6 +24,7 @@ Plugin 'majutsushi/tagbar'								"显示已定义的变量、函数和类
 Plugin 'terryma/vim-multiple-cursors'					"多光标操作
 Plugin 'kien/ctrlp.vim'									"快速搜索文件，然后进行跳转
 Plugin 'junegunn/vim-easy-align'
+Plugin 'vim-scripts/OmniCppComplete'					"C++补全插件
 call vundle#end()            " required	   
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -52,6 +53,6 @@ source ~/.vim/config/tagbar.vim							"显示已定义的变量、函数和类
 source ~/.vim/config/vim-multiple-cursors.vim			"多光标操作
 source ~/.vim/config/ctrlp.vim							"快速搜索文件，然后进行跳转
 source ~/.vim/config/vim-easy-align.vim
-
+source ~/.vim/config/omnicppcomplete.vim
 
 
