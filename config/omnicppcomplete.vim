@@ -1,6 +1,7 @@
 " 项目主页：https://github.com/vim-scripts/OmniCppComplete
 
-
+" 教程1：http://www.cnblogs.com/xkfz007/articles/2501888.html
+" 教程2：http://blog.csdn.net/doc_sgl/article/details/47205779
 
 filetype plugin indent on
 
