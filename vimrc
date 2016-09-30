@@ -39,6 +39,8 @@ set autoread								"文件被修改时自动载入
 let mapleader = ","
 let g:mapleader = ","
 
+set tags+=~/.vim/tags/cpp_src/tags			"该命令是设置tags文件的搜索路径，默认只有vim工作目录的tags文件，这样设置之后就会同时加载指定目录的tags文件，你可以在后面添加更多其它第三方库的tags文件
+
 "=========================================
 "基础设置在这个文件中配置， 其它配置都在config文件夹下
 "mapping.vim 关于各种按键映射
