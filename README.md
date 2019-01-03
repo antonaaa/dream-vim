@@ -28,9 +28,13 @@ mac os系统
 sudo brew install ctags
 
 #安装powerline字体
-git clone https://github.com/powerline/powerline powerline
-cd powerline
-python setup.py
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
 ```
 linux 系统
 ```shell
@@ -38,9 +42,13 @@ linux 系统
 sudo apt-get install ctags
 
 #安装powerline字体
-git clone https://github.com/powerline/powerline powerline
-cd powerline
-python setup.py
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
 ```
 #### 3.安装
 ```shell
